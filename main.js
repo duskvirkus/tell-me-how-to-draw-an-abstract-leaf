@@ -47,7 +47,7 @@ function getStepText() {
     ret = `Draw a ${type} line.`;
   }
 
-  let r3 = Math.floor(random(0, 2));
+  let r3 = Math.floor(random(0, 5));
 
   let place = "";
   if (r3 == 0) {
